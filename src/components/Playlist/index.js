@@ -4,11 +4,11 @@ import PlaylistHeader from '../PlaylistHeader';
 import PlaylistItems from '../PlaylistItems';
 import { PlaylistContainer } from './style';
 
-const Playlist = ({ videos, activeVideo, toggleTheme }) => {
+const Playlist = ({ nightMode, toggleNightMode, activeVideo, totalVideo, videos }) => {
   return (
     <PlaylistContainer>
-      <NightMode toggleTheme={toggleTheme} />
-      <PlaylistHeader activeVideo={activeVideo} totalVideos={videos.length} />
+      <NightMode nightMode={nightMode} toggleNightMode={toggleNightMode} />
+      <PlaylistHeader activeVideo={activeVideo} totalVideo={totalVideo} />
       <PlaylistItems videos={videos} activeVideo={activeVideo} />
     </PlaylistContainer>
   );

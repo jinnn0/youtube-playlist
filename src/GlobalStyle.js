@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const colors = {
-  toggleGreen: 'rgb(64, 80, 64)',
-  activeGreen: 'rgb(75, 150, 95)'
+  toggleModeBg: '#505770',
+  activeGreen: '#4b965f'
 };
 
 const GlobalStyle = createGlobalStyle`

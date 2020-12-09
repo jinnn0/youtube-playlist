@@ -1,12 +1,12 @@
 import React from 'react';
 import { PlaylistHeaderContainer } from './style';
 
-const PlaylistHeader = ({ activeVideo, totalVideos }) => {
+const PlaylistHeader = ({ activeVideo, totalVideo }) => {
   return (
     <PlaylistHeaderContainer>
       <p>{activeVideo.title}</p>
       <span>
-        {activeVideo.num} / {totalVideos}
+        {activeVideo.num} / {totalVideo}
       </span>
     </PlaylistHeaderContainer>
   );

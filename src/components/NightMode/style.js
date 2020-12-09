@@ -7,11 +7,9 @@ export const NightModeContainer = styled.div`
   align-items: center;
   padding: 0 15px;
 
-  @media (min-width: 500px) {
-    padding: 0 2rem;
-  }
-
-  span {
+  .nightMode {
+    display: inline-block;
+    width: 95px;
     font-size: 0.8rem;
     margin-right: 10px;
 
@@ -33,7 +31,7 @@ export const NightModeContainer = styled.div`
     height: 20px;
     border-radius: 30px;
     position: relative;
-    background-color: ${colors.toggleGreen};
+    background-color: ${colors.toggleModeBg};
     cursor: pointer;
 
     &::before {

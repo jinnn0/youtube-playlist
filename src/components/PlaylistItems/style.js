@@ -48,6 +48,11 @@ export const PlaylistItemsContainer = styled.ul`
 
       span:nth-child(2) {
         font-size: 0.9rem;
+
+        a {
+          text-decoration: none;
+          color: ${(props) => props.theme.color};
+        }
       }
 
       span:nth-child(3) {

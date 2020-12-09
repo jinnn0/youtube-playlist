@@ -1,12 +1,12 @@
 import React from 'react';
 import { NightModeContainer } from './style';
 
-const NightMode = ({ toggleTheme }) => {
+const NightMode = ({ nightMode, toggleNightMode }) => {
   return (
     <NightModeContainer>
-      <span>Nightmode:</span>
-      <input type="checkbox" id="checkbox" onChange={toggleTheme} />
-      <label htmlFor="checkbox"></label>
+      <span className="nightMode">{nightMode ? 'Bright Mode' : 'Night Mode'} </span>
+      <input type="checkbox" id="checkbox" />
+      <label htmlFor="checkbox" onClick={toggleNightMode}></label>
     </NightModeContainer>
   );
 };

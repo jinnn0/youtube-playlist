@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { colors } from '../../GlobalStyle';
 
 export const PlaylistHeaderContainer = styled.div`
   height: 65px;

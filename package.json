@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks-videoplayer-start",
+  "name": "react-youtube-playlist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +24,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "homepage": "http://www.weibenfalk.com/react_videoplayer/"
+  ]
 }
