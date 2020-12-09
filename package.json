@@ -1,8 +1,8 @@
 {
-  "name": "react-youtube-playlist",
+  "name": "youtube-playlist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jinnn0.github.io/react-youtube-playlist/",
+  "homepage": "https://jinnn0.github.io/youtube-playlist/",
   "dependencies": {
     "gh-pages": "^3.1.0",
     "react": "^16.8.6",
